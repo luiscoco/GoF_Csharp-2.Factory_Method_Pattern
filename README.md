@@ -1,6 +1,7 @@
 # GoF_Csharp_Factory_Method_Pattern
 
-The Factory Method pattern defines an interface for creating objects, but it allows subclasses to decide which class to instantiate. 
+## Factory Method pattern (Creational Patterns):
+Defines an interface for creating objects, but it allows subclasses to decide which class to instantiate. 
 It promotes loose coupling by separating the client code from the object creation process.
 
 ```csharp
