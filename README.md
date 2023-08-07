@@ -67,3 +67,8 @@ public class ConcreteCreatorB : Creator
     }
 }
 ```
+
+## How to setup Github actions
+
+![Csharp Github actions](https://github.com/luiscoco/GoF_Csharp-2.Factory_Method_Pattern/assets/32194879/90ca90d4-16b7-4979-8c29-f1df6de646d5)
+
