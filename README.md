@@ -1,5 +1,11 @@
 # GoF_Csharp_Factory_Method_Pattern
 
+https://refactoring.guru/design-patterns/factory-method
+
+
+https://www.dotnettricks.com/learn/designpatterns/factory-method-design-pattern-dotnet
+
+
 ## What is Factory Method Pattern?
 In Factory pattern, we create the object without exposing the creation logic. In this pattern, an interface is used for creating an object, but let subclass decide which class to instantiate. The creation of object is done when it is required. The Factory method allows a class later instantiation to subclasses.
 
