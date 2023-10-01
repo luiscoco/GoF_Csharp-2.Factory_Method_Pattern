@@ -1,4 +1,4 @@
-# GoF_Csharp_Factory_Method_Pattern
+# GoF_Csharp_Factory_Method_Pattern (Creational Patterns)
 
 https://refactoring.guru/design-patterns/factory-method
 
