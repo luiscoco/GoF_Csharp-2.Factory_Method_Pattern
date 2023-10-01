@@ -8,6 +8,26 @@ https://www.dotnettricks.com/learn/designpatterns/factory-method-design-pattern-
 
 
 ## What is Factory Method Pattern?
+Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes.
+
+The Factory Method defines a method, which should be used for creating objects instead of using a direct constructor call (new operator). Subclasses can override this method to change the class of objects that will be created.
+
+```csharp
+static void Main(string[] args)
+ {
+ VehicleFactory factory = new ConcreteVehicleFactory();
+
+ IFactory scooter = factory.GetVehicle("Scooter");
+ scooter.Drive(10);
+
+ IFactory bike = factory.GetVehicle("Bike");
+ bike.Drive(20);
+
+ Console.ReadKey();
+
+ }
+```
+
 In Factory pattern, we create the object without exposing the creation logic. In this pattern, an interface is used for creating an object, but let subclass decide which class to instantiate. The creation of object is done when it is required. The Factory method allows a class later instantiation to subclasses.
 
 In short, factory method design pattern abstract the process of object creation and allows the object to be created at run-time when it is required.
