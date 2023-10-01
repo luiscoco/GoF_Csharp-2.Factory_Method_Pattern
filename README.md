@@ -2,6 +2,7 @@
 
 https://refactoring.guru/design-patterns/factory-method
 
+https://refactoring.guru/design-patterns/examples
 
 https://www.dotnettricks.com/learn/designpatterns/factory-method-design-pattern-dotnet
 
